@@ -4,7 +4,7 @@ A quick guide for the Java Collections Framework
 ## Queues 
 
 | Implementation        | offer    | peek | poll     | size | 
-| --------------------: |:-------- |:----:|:--------:|:----:|
+|:---------------------:|:--------:|:----:|:--------:|:----:|
 | PriorityQueue         | O(log n) | O(1) | O(log n) | O(1) |
 | ConcurrentLinkedQueue | O(1)     | O(1) | O(1)     | O(n) |
 | ArrayBlockingQueue    | O(1)     | O(1) | O(1)     | O(1) |
