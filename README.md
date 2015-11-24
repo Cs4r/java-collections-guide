@@ -14,3 +14,13 @@ A quick guide for the Java Collections Framework
 | LinkedList            | O(1)     | O(1) | O(1)     | O(1) |
 | ArrayDeqeue           | O(1)     | O(1) | O(1)     | O(1) |
 | LinkedBlockingDequeue | O(1)     | O(1) | O(1)     | O(1) |
+
+
+## Lists
+
+
+| Implementation       | get  | add  | contains | next | remove | iterator.remove |
+|:--------------------:|:----:|:----:|:--------:|:----:|:------:|:---------------:|
+| ArrayList            | O(1) | O(1) | O(n)     | O(1) | O(n)   | O(n)            |
+| LinkedList           | O(n) | O(1) | O(n)     | O(1) | O(1)   | O(1)            |
+| CopyOnWriteArrayList | O(1) | O(n) | O(n)     | O(1) | O(n)   | O(n)            |
